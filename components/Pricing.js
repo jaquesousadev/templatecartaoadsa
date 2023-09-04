@@ -46,7 +46,7 @@ export default function Pricing() {
               </p>
               <div className="flex items-center justify-center">
                 <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                  Indidual
+                  Individual
                 </h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">

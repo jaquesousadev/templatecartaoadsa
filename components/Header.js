@@ -53,10 +53,19 @@ export default function Header() {
               </li>
               <li>
                 <a
+                  href="#teste"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                >
+                  teste
+                </a>
+              </li>
+
+              <li>
+                <a
                   href="#demo"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
-                  Apoio
+                  Cartão
                 </a>
               </li>
               <li>

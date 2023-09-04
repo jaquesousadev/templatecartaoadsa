@@ -5,13 +5,13 @@ export default function Demo() {
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 text-left md:mb-20 md:text-center">
             <div className="inline-block px-3 py-1 text-sm font-semibold rounded-lg bg-emerald-100 bg-opacity-60 text-emerald-500 hover:cursor-pointer hover:bg-opacity-80">
-              Apoio
+              Cartão
             </div>
             <h1 className="text-3xl font-semibold text-gray-800 md:text-5xl">
-              Pr. Marcos Galdino Júnior
+              Adquira Agora o Cartão de descontos
             </h1>
             <p className="mx-auto text-xl md:w-2/3 md:text-2xl">
-            Apoia o cartão de descontos para membros da Igreja ADSA Brasil.
+              Para membros da Igreja ADSA Brasil.
             </p>
           </div>
         </div>
@@ -19,7 +19,7 @@ export default function Demo() {
       <div className="max-w-3xl px-8 mx-auto sm:px-6 lg:max-w-5xl lg:px-8">
 
         <img
-          src="images/pastorgaldino.png"
+          src="images/cartao1.jpg"
           className="mt-8 rounded-xl"
           alt="placeholder"
         />
