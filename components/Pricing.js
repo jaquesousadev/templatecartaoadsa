@@ -34,7 +34,7 @@ export default function Pricing() {
               Valores
             </div>
             <h2 className="mb-5 text-3xl font-semibold text-gray-800 md:text-5xl">
-              Plano idela para você
+              Plano ideal para você
             </h2>
           </div>
         </div>
