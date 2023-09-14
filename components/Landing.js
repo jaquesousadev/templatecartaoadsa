@@ -1,4 +1,14 @@
+import React, { useState } from 'react';
+import Teste from "./Teste";
+
 export default function Landing() {
+
+  const [mostrarTeste, setMostrarTeste] = useState(false);
+
+  const handleClickContratar = () => {
+    // Inverte o valor atual de mostrarTeste
+    setMostrarTeste(!mostrarTeste);
+  };
   return (
     <section>
       <div className="max-w-3xl mx-8 md:mx-auto">
@@ -14,10 +24,10 @@ export default function Landing() {
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="space-y-2">
-              <a
-                href="#"
-                className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
-              >
+            <button
+              onClick={handleClickContratar}
+              className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
+            >
                 Adquirir o cartão{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -31,10 +41,10 @@ export default function Landing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </a>
-            
+              </button>        
             </div>
           </div>
+          {mostrarTeste && <Teste />}      
         </div>
       </div>
       <div className="relative w-full px-4 text-center sm:px-0 md:mx-auto md:my-12 md:w-3/5">
@@ -51,9 +61,7 @@ export default function Landing() {
             />
           </a>
         </div>
-        {/* <p className="z-10 my-8 text-sm font-medium text-gray-500">
-            Caption if needed
-          </p> */}
+       
       </div>
       <div className="mt-20 space-y-6 text-center mb-28 md:mt-32">
         <h1 className="text-lg font-semibold tracking-wide text-center text-gray-100 text-opacity-75 uppercase md:mx-10 md:text-gray-600">
@@ -61,12 +69,7 @@ export default function Landing() {
         </h1>
         <div className="w-3/5 p-6 mx-auto bg-gray-100 rounded-2xl bg-opacity-70 md:bg-opacity-100 md:p-10">
           <div className="flex flex-wrap items-center justify-center flex-shrink -mt-6 -ml-6 space-x-6 space-y-6">
-            {/* 
-            <img
-              className="h-5 mt-6 ml-6 md:h-8"
-              src="images/stripe.svg"
-              alt=""
-            /> */}
+           
             <img
               className="h-14 md:h-13"
               src="images/adsabrasil.png"
@@ -82,21 +85,7 @@ export default function Landing() {
               src="images/zelo.png"
               alt=""
             />
-            {/*<img
-              className="h-5 md:h-5"
-              src="images/oracle.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-9"
-              src="images/honey.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-8"
-              src="images/digitalocean.svg"
-              alt=""
-            />*/}
+           
           </div>
         </div>
       </div>

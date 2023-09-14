@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Header from '../components/Header';
 import Landing from '../components/Landing';
-/*import Teste from '../components/Teste'; */
+import Teste from '../components/Teste';
 import Features from '../components/Features';
 import Demo from '../components/Demo';
 import Pricing from '../components/Pricing';
@@ -40,6 +40,7 @@ const Home: NextPage = () => {
         <Testimonies />
         <Action />
         <Footer />
+        <Teste />
       </div>
     </>
   );

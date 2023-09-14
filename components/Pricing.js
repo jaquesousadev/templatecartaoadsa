@@ -50,7 +50,7 @@ export default function Pricing() {
                 </h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>R$ 20,00 / mês</div>
+                <div>R$ 22,00 / mês</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
                   Apenas para Membros da ADSA BRASIL.
                 </div>
