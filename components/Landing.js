@@ -1,14 +1,6 @@
-import React, { useState } from 'react';
-import Teste from "./Teste";
+
 
 export default function Landing() {
-
-  const [mostrarTeste, setMostrarTeste] = useState(false);
-
-  const handleClickContratar = () => {
-    // Inverte o valor atual de mostrarTeste
-    setMostrarTeste(!mostrarTeste);
-  };
   return (
     <section>
       <div className="max-w-3xl mx-8 md:mx-auto">
@@ -24,8 +16,8 @@ export default function Landing() {
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="space-y-2">
-            <button
-              onClick={handleClickContratar}
+            <a
+              href="formadesao"
               className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
             >
                 Adquirir o cartão{' '}
@@ -41,10 +33,9 @@ export default function Landing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </button>        
+              </a>        
             </div>
-          </div>
-          {mostrarTeste && <Teste />}      
+          </div>    
         </div>
       </div>
       <div className="relative w-full px-4 text-center sm:px-0 md:mx-auto md:my-12 md:w-3/5">

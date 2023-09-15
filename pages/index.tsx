@@ -12,6 +12,7 @@ import Action from '../components/Action';
 import Footer from '../components/Footer';
 
 
+
 const Home: NextPage = () => {
   return (
     <>
@@ -40,7 +41,8 @@ const Home: NextPage = () => {
         <Testimonies />
         <Action />
         <Footer />
-        <Teste />
+        
+        
       </div>
     </>
   );

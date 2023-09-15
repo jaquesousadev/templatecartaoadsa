@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Teste from "../pages/formadesao";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -61,7 +62,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="formadesao"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Contratar
