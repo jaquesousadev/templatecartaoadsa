@@ -57,7 +57,7 @@ export default function Header() {
                   href="#demo"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
-                  Cartão
+                  Apoio
                 </a>
               </li>
               <li>

@@ -12,7 +12,7 @@ export default function Footer() {
                 <a href="#">Proposta</a>
               </li>
               <li>
-                <a href="#">Cartão</a>
+                <a href="#">Apoio</a>
               </li>
               <li>
                 <a href="#">Contratar</a>
