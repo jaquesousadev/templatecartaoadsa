@@ -62,6 +62,30 @@ export default function Header() {
               </li>
               <li>
                 <a
+                  href="#pricing"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                >
+                  Valores
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#desconto"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                >
+                  Desconto
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#testimonies"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                >
+                  Rede
+                </a>
+              </li>
+              <li>
+                <a
                   href="formadesao"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >

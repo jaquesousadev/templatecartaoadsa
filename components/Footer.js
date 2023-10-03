@@ -9,10 +9,19 @@ export default function Footer() {
                 J. Alves Cartão
               </li>
               <li>
-                <a href="#">Proposta</a>
+                <a href="#features">Proposta</a>
               </li>
               <li>
-                <a href="#">Apoio</a>
+                <a href="#demo">Apoio</a>
+              </li>
+              <li>
+                <a href="#pricing">Valores</a>
+              </li>
+              <li>
+                <a href="#desconto">Desconto</a>
+              </li>
+              <li>
+                <a href="#testimonies">Rede</a>
               </li>
               <li>
                 <a href="#">Contratar</a>

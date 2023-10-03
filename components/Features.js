@@ -104,7 +104,7 @@ export default function Features() {
               eliminando a necessidade de deslocamentos, longas esperas e a burocracia de agendamentos.
               </p>
             </div>
-            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+            {/*<div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -188,7 +188,7 @@ export default function Features() {
                 nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

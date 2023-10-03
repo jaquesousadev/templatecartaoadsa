@@ -28,7 +28,7 @@ const Tweet = ({ name, position, text, photoLink, tweetLink }) => {
 
 export default function Testimonies() {
   return (
-<section id="demo" className="py-20 bg-opacity-50 bg-emerald-50">
+<section id="testimonies" className="py-20 bg-opacity-50 bg-emerald-50">
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 text-left md:mb-20 md:text-center">
@@ -50,10 +50,10 @@ export default function Testimonies() {
           src="images/rede.png"
           className="mt-8 rounded-xl"
           alt="placeholder"
-        />
-       
-      </div>
-      
-    </section>
+        />       
+      </div>      
+    </section>  
   );
 }
+
+
