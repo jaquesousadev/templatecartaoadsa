@@ -10,7 +10,7 @@ import Testimonies from '../components/Testimonies';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
 import Desconto from '../components/Desconto';
-
+import Redesul from '../components/redesul';
 
 
 const Home: NextPage = () => {
@@ -37,6 +37,7 @@ const Home: NextPage = () => {
         <Landing />
         <Features />
         <Demo />
+        <Redesul />
         <Pricing />
         <Desconto/>
         <Testimonies />

@@ -21,7 +21,7 @@ export default function Footer() {
                 <a href="#desconto">Desconto</a>
               </li>
               <li>
-                <a href="#testimonies">Rede</a>
+                <a href="#redesul">Rede</a>
               </li>
               <li>
                 <a href="#">Contratar</a>

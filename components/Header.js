@@ -78,7 +78,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#testimonies"
+                  href="#redesul"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Rede
