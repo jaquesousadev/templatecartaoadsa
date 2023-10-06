@@ -19,92 +19,272 @@ export default function Redesul() {
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
              
               <h3 className="text-xl font-semibold text-white">
-              CLINICA SANTIN
-              
+                CLINICAS INTEGRADAS SANTIN
               </h3>
               <p className="text-gray-200">
-              RUA DO ESTILO BARROCO, 401 SANTO AMARO
+                RUA DO ESTILO BARROCO, 401 SANTO AMARO
               </p>
+              <p className="text-gray-200">
+                (11) 5181-0976
+              </p>
+
             </div>
             {/* Quadrado 2 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              HERMES PARDINI - UNIDADE SANTO AMARO
+                CLINICA VIDA NOVA SAUDE
               </h3>
               <p className="text-gray-200">
-              ALAMEDA SANTO AMARO, 379 SANTO AMARO
+                R. PROMOTOR GABRIEL NETTUZZI PEREZ, 422 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 5541-9700
               </p>
             </div>
             {/* Quadrado 3 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              LABI EXAMES - UNIDADE SANTO AMARO
+                DERMA LINE SANTO AMARO
               </h3>
               <p className="text-gray-200">
-              RUA BARÃO DO RIO BRANCO, 373 SANTO AMARO
+                RUA CONDE DE ITU, 550 JARDIM SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 5523-9222
               </p>
             </div>
             {/* Quadrado 4 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              PERFILLAB DIAGNÓSTICOS
+                CEMES
               </h3>
               <p className="text-gray-200">
-              AVENIDA SANTO AMARO, 6790 SANTO AMARO
+                AVENIDA ATLÂNTICA, 127 SOCORRO
+              </p>
+              <p className="text-gray-200">
+                (11) 5525-3100
               </p>
             </div>
             {/* Quadrado 5 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              ELENICE ROBES DONEZA GAGLIARDI
+                CENTRO MÉDICO SÃO JOSÉ
               </h3>
               <p className="text-gray-200">
-              RUA SÃO BENEDITO, 421 SANTO AMARO
+                AV. DO JANGADEIRO, 677 INTERLAGOS
+              </p>
+              <p className="text-gray-200">
+                (11) 5666-6846
               </p>
             </div>
             {/* Quadrado 6 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              A+ MEDICINA DIAGNÓSTICA - CHÁCARA FLORA
+                CENTROCORDIS - UNIDADE CAMPO BELO
               </h3>
               <p className="text-gray-200">
-              AVENIDA WASHINGTON LUIS, 2480 SANTO AMARO
+                RUA PASCAL, 1027 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 4336-8383
               </p>
             </div>
             {/* Quadrado 7 */}
             <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              ANALIN ANÁLISES CLINICAS
+                CLINICA ORTOPÉDICA PINHEIROS
               </h3>
               <p className="text-gray-200">
-              RUA PADRE JOSÉ DE ANCHIETA, 794 SANTO AMARO
+                AVENIDA VEREADOR JOSÉ DINIZ, 3457 - 5° ANDAR - CONJ. 503 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 5099-1911
               </p>
             </div>
-           {/* Quadrado 8 */}
+            {/* Quadrado 8 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                IOCB ORTOPEDIA
+              </h3>
+              <p className="text-gray-200">
+                RUA DOUTOR JESUÍNO MACIEL, 1610 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 5538-0011
+              </p>
+            </div>
+            {/* Quadrado 9 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                VICTOR PRESSER
+              </h3>
+              <p className="text-gray-200">
+                RUA DEMÓSTENES, 179 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 5533-2987
+              </p>
+            </div>
+            {/* Quadrado 10 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                ANNA JEANETTE BEREZIN 
+              </h3>
+              <p className="text-gray-200">
+                GASTROENTEROLOGIA CLINICA E HOMEOPATIA
+              </p>
+              <p className="text-gray-200">
+                RUA EDSON, 361 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 3459-9180
+              </p>
+            </div>
+            {/* Quadrado 11 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                GAP CLINICA DE OTORRINO E FONO GILBERTO PIZARRO
+              </h3>
+              <p className="text-gray-200">
+                GILBERTO PIZARRO
+              </p>
+              <p className="text-gray-200">
+                RUA ZACARIAS DE GOIS, 1585 CAMPO BELO
+              </p>
+              <p className="text-gray-200">
+                (11) 99325-9042
+              </p>
+            </div>
+            {/* Quadrado 12 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                MEDICAL CENTER SAÚDE
+              </h3>
+              <p className="text-gray-200">
+                RUA NOVA PÁTRIA, 263 BOSQUE DA SAÚDE
+              </p>
+              <p className="text-gray-200">
+                (11) 5058-7490
+              </p>
+            </div>
+            {/* Quadrado 13 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                CLINICA BURITIS
+              </h3>
+              <p className="text-gray-200">
+                RUA DOS BURITIS, 128 - CONJ. 201 - BLOCO A JABAQUARA                
+              </p>
+              <p className="text-gray-200"> 
+              (11)5017-4099 / (2667-4099)
+              </p>
+            </div>
+            {/* Quadrado 14 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                CLÍNICA DE PSICOLOGIA E NEUROPSICOLOGIA PROFª DRA. MICHELE MOREIRA NUNES
+              </h3>
+              <p className="text-gray-200">
+                AVENIDA FAGUNDES FILHO, 361 - CONJ. 25 JABAQUARA                
+              </p>
+              <p className="text-gray-200"> 
+                (11) 4114-8871
+              </p>
+            </div>
+            {/* Quadrado 15 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                PERFILLAB DIAGNÓSTICOS
+              </h3>
+              <p className="text-gray-200">
+                AVENIDA SANTO AMARO, 6790 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 5686-0406
+              </p>
+            </div>
+            {/* Quadrado 16 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                A+ MEDICINA DIAGNÓSTICA - CHÁCARA FLORA
+              </h3>
+              <p className="text-gray-200">
+                AVENIDA WASHINGTON LUIS, 2480 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 3139-8000
+              </p>
+            </div>
+            {/* Quadrado 17 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                ANALIN ANÁLISES CLINICAS
+              </h3>
+              <p className="text-gray-200">
+                RUA PADRE JOSÉ DE ANCHIETA, 794 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 5546-0905
+              </p>
+            </div>
+           {/* Quadrado 18 */}
            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              LAVOISIER - UNIDADE DEDICADA - LARGO 13
+                LAVOISIER - UNIDADE DEDICADA - LARGO 13
               </h3>
               <p className="text-gray-200">
-              RUA BARÃO DE DUPRAT, 332 SANTO AMARO
+                RUA BARÃO DE DUPRAT, 332 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 3047-4488
               </p>
             </div>
-             {/* Quadrado 9 */}
+             {/* Quadrado 19 */}
              <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              LAVOISIER - SANTO AMARO BORBA GATO
+                LAVOISIER - SANTO AMARO BORBA GATO
               </h3>
               <p className="text-gray-200">
-              AVENIDA SANTO AMARO, 5662 SANTO AMARO
+                AVENIDA SANTO AMARO, 5662 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 3047-4488
               </p>
             </div>
-             {/* Quadrado 10 */}
+             {/* Quadrado 20 */}
              <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+                <h3 className="text-xl font-semibold text-white">
+                  LAVOISIER - SANTO AMARO
+                </h3>
+                <p className="text-gray-200">
+                  AVENIDA ADOLFO PINHEIRO, 2394 SANTO AMARO
+                </p>
+                <p className="text-gray-200">
+                  (11) 3047-4488
+                </p>
+            </div>
+            {/* Quadrado 21 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
               <h3 className="text-xl font-semibold text-white">
-              LAVOISIER - SANTO AMARO
+                HERMES PARDINI - UNIDADE SANTO AMARO
               </h3>
               <p className="text-gray-200">
-              AVENIDA ADOLFO PINHEIRO, 2394 SANTO AMARO
+                ALAMEDA SANTO AMARO, 379 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 4020-2573
+              </p>
+            </div>
+            {/* Quadrado 22 */}
+            <div className="flex shadow-md hover:shadow-[#00e4ff] flex-col justify-between p-5    transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
+              <h3 className="text-xl font-semibold text-white">
+                LABI EXAMES - UNIDADE SANTO AMARO
+              </h3>
+              <p className="text-gray-200">
+                RUA BARÃO DO RIO BRANCO, 373 SANTO AMARO
+              </p>
+              <p className="text-gray-200">
+                (11) 3003-2686
               </p>
             </div>
           
